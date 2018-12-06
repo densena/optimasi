@@ -12,3 +12,10 @@ function recentPosts(a){if(document.getElementById("recent-posts")){var e=a.feed
               <div class="layer fadeIn"></div></div>\
 ';
 function hidefb(){document.getElementById("fbbox-wrapper").style.display="none"}function hidefbbox(){document.getElementById("fbbox-wrapper").style.display="none",createCookie("hideDialog","hide",7000)}function hidesubscribe(){document.getElementById("site-subs").style.display="none"}function hidesubscribebox(){document.getElementById("site-subs").style.display="none",createCookie("hideDialog2","hide",7000)}function createCookie(e,o,n){if(n){var t=new Date;t.setTime(t.getTime()+24*n*60*60*1e3);var i="; expires="+t.toGMTString()}else var i="";document.cookie=e+"="+o+i+"; path=/"}function readCookie(e){for(var o=e+"=",n=document.cookie.split(";"),t=0;t<n.length;t++){for(var i=n[t];" "==i.charAt(0);)i=i.substring(1,i.length);if(0==i.indexOf(o))return i.substring(o.length,i.length)}return null}function eraseCookie(e){createCookie(e,"",-1)}onscroll=function(){var e=document.documentElement.scrollTop||document.body.scrollTop;e>800&&(appended||(document.body.appendChild(bookmark),appended=!0),readCookie("hideDialog")&&(document.getElementById("fbbox-wrapper").style.display="none"),readCookie("hideDialog2")&&(document.getElementById("site-subs").style.display="none"))};
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v3.2&appId=174283936611283&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
