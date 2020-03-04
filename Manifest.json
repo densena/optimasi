@@ -1,0 +1,38 @@
+{
+  "name": "Densena.my.id",
+  "short_name": "Densena",
+  "start_url": "https://www.densena.my.id",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#ffffff",
+  "description": "Densena adalah website personal yang membahas tentang berbagi Tips dan Informasi, Pengetahuan, Sains dan Technology serta Opini",
+  "icons": [{
+    "src": "https://3.bp.blogspot.com/-ph8xkDuIezA/Xl-qO5O071I/AAAAAAAACFo/EMwQdXOfoKYbb4g7X4Z-rLZAO78KQydGwCLcBGAsYHQ/s48/logo.png",
+    "sizes": "48x48",
+    "type": "image/png"
+  }, {
+    "src": "https://3.bp.blogspot.com/-ph8xkDuIezA/Xl-qO5O071I/AAAAAAAACFo/EMwQdXOfoKYbb4g7X4Z-rLZAO78KQydGwCLcBGAsYHQ/s72/logo.png",
+    "sizes": "72x72",
+    "type": "image/png"
+  }, {
+    "src": "https://3.bp.blogspot.com/-ph8xkDuIezA/Xl-qO5O071I/AAAAAAAACFo/EMwQdXOfoKYbb4g7X4Z-rLZAO78KQydGwCLcBGAsYHQ/s96/logo.png",
+    "sizes": "96x96",
+    "type": "image/png"
+  }, {
+    "src": "https://3.bp.blogspot.com/-ph8xkDuIezA/Xl-qO5O071I/AAAAAAAACFo/EMwQdXOfoKYbb4g7X4Z-rLZAO78KQydGwCLcBGAsYHQ/s144/logo.png",
+    "sizes": "144x144",
+    "type": "image/png"
+  }, {
+    "src": "https://3.bp.blogspot.com/-ph8xkDuIezA/Xl-qO5O071I/AAAAAAAACFo/EMwQdXOfoKYbb4g7X4Z-rLZAO78KQydGwCLcBGAsYHQ/s168/logo.png",
+    "sizes": "168x168",
+    "type": "image/png"
+  }, {
+    "src": "https://3.bp.blogspot.com/-ph8xkDuIezA/Xl-qO5O071I/AAAAAAAACFo/EMwQdXOfoKYbb4g7X4Z-rLZAO78KQydGwCLcBGAsYHQ/s192/logo.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  }, {
+    "src": "https://3.bp.blogspot.com/-ph8xkDuIezA/Xl-qO5O071I/AAAAAAAACFo/EMwQdXOfoKYbb4g7X4Z-rLZAO78KQydGwCLcBGAsYHQ/s512/logo.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }]
+}
